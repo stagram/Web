@@ -1,0 +1,12 @@
+FROM golang:1.6
+MAINTAINER Dongri Jin <dongrify@gmail.com>
+
+RUN go get github.com/tools/godep
+RUN go get github.com/codegangsta/gin
+
+ADD . /go/src/guncy.com/stagram
+WORKDIR /go/src/guncy.com/stagram
+
+EXPOSE 3000
+
+CMD ["gin", "--port", "3000", "--godep", "true"]

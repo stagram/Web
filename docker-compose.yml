@@ -1,0 +1,9 @@
+stagram:
+  build: .
+  dockerfile: devDockerfile
+  environment:
+    - GO_ENV=production
+  volumes:
+    - .:/go/src/guncy.com/stagram
+  ports:
+    - "50001:3000"

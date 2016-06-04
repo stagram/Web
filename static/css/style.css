@@ -1,0 +1,399 @@
+html body{
+    margin:0;
+    padding:0;
+    background-color: #fafafa;
+    font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+a{
+    color:#125688;
+    text-decoration:none;
+}
+.header{
+    padding:0;
+    background-color: #272D35;
+}
+.header h1{
+    font-size: 14px;
+    color: rgb(164, 177, 190);
+    display:inline-block;
+    font-weight:bold;
+    margin:0;
+    padding:10px;
+}
+.header h1 a{
+    color:#41505A;
+}
+.header h1 a:hover{
+    color:#09F;
+}
+.header nav{
+    background-color:rgb(65, 68, 75);
+    padding:40px;
+    border-bottom:1px solid #CCC;
+    margin-bottom:0px;
+}
+.header nav a{
+    display: inline-block;
+    padding: 4px 6px;
+    margin-right:10px;
+    background-color:#09F;
+    color:#FFF;
+    -webkit-border-radius:4px;
+    -moz-border-radius:4px;
+    border-radius:4px;
+    -webkit-box-shadow: 0 3px 1px rgba(0,0,0,0.1);
+    -moz-box-shadow: 0 3px 1px rgba(0,0,0,0.1);
+    box-shadow: 0 3px 1px rgba(0,0,0,0.1);
+    text-shadow:0 2px 1px rgba(0,0,20,0.1);
+}
+.Example_Details{
+    padding:20px;
+    color:#272D35;
+    font-size:14px;
+    background-color: #FFFFFF;
+    margin-top:0;
+}
+h1.instance-header{
+    font-size: 14px;
+    padding:20px;
+    margin-bottom:10px;
+    margin-top: 30px;
+}
+a.return{
+    font-size:12px;
+    display:inline-block;
+    padding:12px 10px 10px 10px;
+    float:right;
+    text-transform: uppercase;
+    color:#41505A;
+}
+a.return:hover{
+    color:#09F;
+}
+.footnote{
+    color:#999;
+    padding:10px;
+    font-size:12px;
+}
+.Collage{
+    padding:10px;
+
+}
+.Collage img{
+    margin:0;
+    padding:0;
+    display:inline-block;
+    vertical-align:bottom;
+    opacity:1;
+}
+
+.Image_Wrapper{
+    opacity:0;
+}
+
+.Caption{
+    font-size:14px;
+    font-weight:normal;
+    font-family:arial;
+}
+.Caption_Content{
+    color:#FFF;
+    padding:14px;
+}
+
+.Caption_Content a {
+  color: #FFF;
+}
+/* Patch by dongri */
+
+.Caption_Image{
+  width: 30px !important;
+  height: 30px !important;
+  border-radius: 50%;
+  border: 3px solid #FFF !important;
+  vertical-align: middle !important;
+}
+
+.Caption_Text{
+  font-size: 10px !important;
+  font-weight: bold !important;
+}
+
+.Caption_Action {
+  font-size: 10px !important;
+  float: right;
+  margin-top: 10px;
+}
+.Caption_Action_Image{
+  width: 20px !important;
+  height: 20px !important;
+  border: 0px !important;
+  vertical-align: middle !important;
+}
+
+
+div#loadmore{
+  display: table;
+  table-layout: fixed;
+  text-align: center;
+  width: 100%;
+}
+div#loadmoreajaxloader {
+  height: 200px;
+  vertical-align: middle;
+  display: table-cell;
+  width: inherit;
+  text-align: center;
+}
+
+.top-bar {
+  background-color: #FFFFFF;
+  background-position: 50% 50%;
+  position: relative;
+  height: 60px;
+  border-bottom: 1px solid #edeeee;
+  position: fixed;
+  -webkit-overflow-scrolling: touch;
+}
+
+#contents {
+  margin-top: 61px;
+}
+
+#wrapper{
+  display: table;
+  width: 100%;
+}
+
+#page-title {
+  color: #125688;
+  text-align: center;
+  font-size: 40px;
+  font-family:'Helvetica Neue Bold', 'Courier New', 'Helvetica Neue', Arial, Helvetica, sans-serif
+  font-weight: 700;
+  vertical-align: middle;
+  display: table-cell;
+  height: 60px;
+}
+
+#login {
+  position: absolute;
+  top: 16px;
+  right: 10px;
+  border: 1px solid white;
+}
+
+#media {
+  margin: 0px auto;
+  /*width: 900px;*/
+}
+
+#media_image {
+  text-align: center;
+}
+
+#media_info{
+  margin-top: 0px;
+}
+
+.user_icon{
+  width: 40px !important;
+  height: 40px !important;
+  border-radius: 50%;
+  border: 2px solid #FFF;
+  vertical-align: middle !important;
+}
+
+.fb-share-button{
+  margin-top: 10px;
+}
+
+#UserInfo{
+  margin: 30px auto;
+  display: table;
+  padding-top: 30px;
+}
+
+#UserInfoIcon {
+  display: table-cell;
+  vertical-align: middle;
+  padding-right: 10px;
+}
+
+#UserInfoIcon > .user_icon{
+  width: 100px !important;
+  height: 100px !important;
+  border-radius: 50%;
+  border: 2px solid #FFF;
+  vertical-align: middle !important;
+}
+
+#UserInfoDetail {
+  display: table-cell;
+  vertical-align: middle;
+  padding-left: 10px;
+}
+
+#UserInfoDetail > .name{
+  font-size: 28px;
+  margin-bottom: 10px;
+  color: #4b4f54;
+}
+
+#UserInfoDetail > .website{
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+#UserInfoDetail > .counts{
+  font-size: 18px;
+  color: #4b4f54;
+}
+
+#UserInfoDetail strong{
+  color: #34373b;
+  font-weight: 600;
+}
+
+.small_user_icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 3px;
+  margin-right: 10px;
+}
+
+#media_image > .Collage > .Image_Wrapper{
+  border-radius: 5px !important;
+}
+
+.media_info_comments_list{
+  margin-top: 10px;
+}
+
+#media > #user_info{
+  margin-top: 20px;
+  text-align: center;
+}
+
+#mdeia_info_caption {
+  margin-bottom: 20px;
+}
+
+.github-image {
+  width: 500px;
+}
+
+.appstore-image, .playstore-image {
+  width: 250px;
+}
+
+@media screen and (max-width: 1200px) {
+  #page-title {
+		font-size: 40px;
+	}
+
+  #UserInfoIcon > .user_icon{
+    width: 100px !important;
+    height: 100px !important;
+  }
+
+  #UserInfoDetail > .name{
+    font-size: 28px;
+  }
+
+  #UserInfoDetail > .website{
+    font-size: 18px;
+  }
+
+  #UserInfoDetail > .counts{
+    font-size: 18px;
+  }
+
+  .small_user_icon {
+    width: 40px;
+    height: 40px;
+  }
+
+  .github-image {
+    width: 500px;
+  }
+
+  .appstore-image, .playstore-image {
+    width: 250px;
+  }
+
+}
+
+@media screen and (max-width: 800px) {
+  #page-title {
+		font-size: 34px;
+	}
+
+  #UserInfoIcon > .user_icon{
+    width: 86px !important;
+    height: 86px !important;
+  }
+
+  #UserInfoDetail > .name{
+    font-size: 22px;
+  }
+
+  #UserInfoDetail > .website{
+    font-size: 16px;
+  }
+
+  #UserInfoDetail > .counts{
+    font-size: 16px;
+  }
+
+  .small_user_icon {
+    width: 36px;
+    height: 36px;
+  }
+
+  .github-image {
+    width: 300px;
+  }
+
+  .appstore-image, .playstore-image {
+    width: 150px;
+  }
+
+}
+
+@media screen and (max-width: 480px) {
+  #page-title {
+		font-size: 28px;
+	}
+
+  #UserInfoIcon > .user_icon{
+    width: 70px !important;
+    height: 70px !important;
+  }
+
+  #UserInfoDetail > .name{
+    font-size: 18px;
+  }
+
+  #UserInfoDetail > .website{
+    font-size: 12px;
+  }
+
+  #UserInfoDetail > .counts{
+    font-size: 12px;
+  }
+
+  .small_user_icon {
+    width: 30px;
+    height: 30px;
+  }
+
+  .github-image {
+    width: 200px;
+  }
+
+  .appstore-image, .playstore-image {
+    width: 100px;
+  }
+
+}
